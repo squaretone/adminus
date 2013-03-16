@@ -10,6 +10,8 @@ This extension does not take the typical approach to ad mitigation. Ad placement
 ### So if it doesn't hide ads, what does it do?
 When ads become overly obtrusive, Ad Minus tries to correct that behavior. For example, it will not hide banner ads on a page but, on certain pay-wall style pop-ups, will prevent you from being redirected when you dismiss the ad.
 
+Follow Ad Minus on Twitter [@Ad_Minus_Ext](https://twitter.com/ad_minus_ext)
+
 ## ToDo:
 - Documentation
 - Add build script.
