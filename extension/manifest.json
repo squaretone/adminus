@@ -1,9 +1,20 @@
 {
+
+  // Required
+  "name": "Ad Minus",
+  "version": "0.1",
   "manifest_version": 2,
 
-  "name": "Ad Minus",
+  // Recommended
   "description": "Dismiss ad overlays.",
-  "version": "0.1",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  
+  // Application specific
+  "background": { "scripts": ["background.js"] },
 
   "content_scripts": [
     {
@@ -11,12 +22,6 @@
       "js": ["jquery-1.9.1.min.js", "content.js"]
     }
   ],
-
-  "permissions" : [
-    "tabs"
-  ],
-
-  "background": { "scripts": ["background.js"] },
 
   "page_action": {
     "default_icon": {
@@ -26,9 +31,7 @@
     "default_title": "Remove ad overlay" // tooltip text
   },
 
-  "icons": {
-    "16": "img/icon16.png",
-    "48": "img/icon48.png",
-    "128": "img/icon128.png"
-  }
+  "permissions" : [
+    "tabs"
+  ]
 }
