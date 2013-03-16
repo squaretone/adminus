@@ -9,4 +9,5 @@ Ad Minus is a Chrome browser extension for dismissing ad overlays.
   - Configure which sites the extension loads on. Right now it's hard-coded.
   - Auto-detect when to show page icon. Right now, it always shows.
 - Support dismissal of multiple ad platforms. Right now it supports only one.
+- Add comments back into manifest... but strip them out in build script
 

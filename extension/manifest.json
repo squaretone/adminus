@@ -1,11 +1,8 @@
 {
-
-  // Required
   "name": "Ad Minus",
   "version": "0.1",
   "manifest_version": 2,
 
-  // Recommended
   "description": "Dismiss ad overlays.",
   "icons": {
     "16": "img/icon16.png",
@@ -13,7 +10,6 @@
     "128": "img/icon128.png"
   },
   
-  // Application specific
   "background": { "scripts": ["background.js"] },
 
   "content_scripts": [
@@ -28,7 +24,7 @@
       "19": "img/icon19.png",
       "38": "img/icon38.png"
     },
-    "default_title": "Remove ad overlay" // tooltip text
+    "default_title": "Remove ad overlay"
   },
 
   "permissions" : [
